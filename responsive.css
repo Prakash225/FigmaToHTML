@@ -1,0 +1,83 @@
+/* #Media Queries
+================================================== */
+@media all and (max-width:1920px) {
+    /*****/
+    .eu h1 { font-size: 80px; }
+    .eu h2 { font-size: 55px; }
+    /*****/
+    .eu .bannerSec::before { width: 11.56rem; height: 14rem; top: -2px; left: 0; }
+    .eu .bannerSec::after { width: 12.75rem; height: 14.25rem; bottom: 4px; right: -15px; }
+    .eu .bannerSec .bannerContent { max-width: 460px; }
+    .eu .bannerRight { right: -50px; width: 50rem; }
+    .eu .bannerLeft { padding: 100px 0; }
+    /*****/
+    .eu .productBlk::before { width: 12.38rem; height: 13.57rem; top: -49px; left: 5px; }
+    /*****/
+    .eu .latest_products::before { width: 13.7rem; height: 14.6rem; bottom: 0px; right: -27px; }
+    /*****/
+    .eu .organic_product .op_Left { padding: 100px 0; }
+    .eu .organic_product .op_Right { right: 0; width: 36rem; bottom: 0; }
+    /*****/
+}
+
+@media all and (max-width:1440px) {
+    /*****/
+    .eu h1 { font-size: 65px; }
+    .eu h2 { font-size: 48px; }
+    .eu button { padding: 12px 35px; }
+    /*****/
+    .eu a.navbar-brand { font-size: 28px; margin: 0 70px 0 0; }
+    .eu .navbar .nav-item:not(:last-child) { margin-right: 30px; }
+
+    .eu .bannerLeft { padding: 70px 0; }
+    .eu .bannerSec p {font-size: 18px;}
+    .eu .bannerSec .bannerContent { max-width: 45%; }
+    .eu .bannerSec .btn_all { margin: 30px 0 0; }
+    .eu .bannerSec .btn_all { margin: 40px 0 0; }
+    .eu .bannerSec::before, .eu .bannerSec::after {display: none;}
+    .eu .bannerRight { right: 0; width: 60%; }
+    /*****/
+    .eu .productBlk::before {display: none;}
+    /*****/
+    .eu .latest_products::before {display: none;}
+    .eu .lp_boxes_main { margin-left: 0; margin-right: 0; }
+    /*****/
+    .eu .organic_product .op_Left { padding: 70px 0; }
+}
+@media all and (max-width:991px) {
+    /*****/
+    .eu h1 { font-size: 56px; }
+    .eu h2 { font-size: 36px; }
+    .eu button { padding: 12px 35px; }
+    /*****/
+    .eu .navbar { padding: 20px 0; }
+    .eu .nav-link::before {display: none;}
+    .eu button.navbar-toggler {background-color: transparent !important;}
+    /*****/
+    .eu .bannerLeft { padding: 50px 0; }
+    .eu .bannerSec .bannerContent {max-width: 100%;text-align: center;}
+    .eu .bannerSec h1 {text-align: center;} 
+    .eu .bannerSec h1 br {display: none;} 
+    .eu .bannerSec p {font-size: 16px;text-align: center;}
+    .eu .bannerSec .btn_all { margin: 30px 0 0; }
+    .eu .bannerRight { right: 0; left: 0; margin: 0 auto; width: 100%; position: relative; text-align: center;}
+    .eu .bannerSec .bannerInner {flex-wrap: wrap;}
+    .eu .bannerRight img { width: 100%; margin: 0 auto; max-width: 400px; }
+    /*****/
+    .eu .organic_product .op_Left { padding: 50px 0; }
+    .eu .organic_product .op_Inner {flex-wrap: wrap;}
+    .eu .op_Left .op_Content {max-width: 100%;text-align: center;}
+    .eu .organic_product .op_Right { right: 0; left: 0; margin: 0 auto; width: 100%; position: relative; text-align: center;}
+    .eu .op_Right img { width: 100%; margin: 0 auto; max-width: 400px; }
+    .eu .organic_product .btn_all { margin: 30px 0 0; }
+    .eu .organic_product h2 {text-align: center;} 
+    /*****/
+
+}
+@media all and (max-width:767px) {	
+    /*****/
+    .eu h1 { font-size: 48px; }
+    .eu h2 { font-size: 32px; }
+    .eu button { padding: 10px 24px; }
+    /*****/
+}
